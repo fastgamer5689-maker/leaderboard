@@ -9,7 +9,8 @@ var app = builder.Build();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
-// The entire website is embedded in this C# file.
+// The entire website is embedded in this C# file. i need to make sure my vs code is able to run it  - this needs more investigation
+
 app.MapGet("/", () => Results.Content("""
 <!DOCTYPE html>
 <html lang="en">
